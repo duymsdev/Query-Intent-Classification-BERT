@@ -1,0 +1,23 @@
+# Môi trường ảo (rất nặng, không bao giờ đẩy lên Git)
+venv/
+.venv/
+
+# File mô hình đã train (nặng hàng trăm MB, GitHub từ chối file >100MB)
+*.pt
+*.pth
+*.bin
+*.safetensors
+models/
+checkpoints/
+
+# Cache của Python
+__pycache__/
+*.pyc
+
+# Cache của Hugging Face và file môi trường
+.cache/
+.env
+
+# File rác của VS Code và hệ điều hành
+.vscode/
+.DS_Store
