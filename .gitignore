@@ -1,6 +1,8 @@
 # Môi trường ảo (rất nặng, không bao giờ đẩy lên Git)
 venv/
 .venv/
+venv*/
+.venv*/
 
 # File mô hình đã train (nặng hàng trăm MB, GitHub từ chối file >100MB)
 *.pt
